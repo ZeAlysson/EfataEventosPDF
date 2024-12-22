@@ -17,6 +17,9 @@ def my_temp(c):
     c.drawString(1.8*inch, 5*inch, "VALOR TOTAL: R$")
     
     c.setFont("Helvetica-Bold", 10)
+    c.drawString(0, 4.7*inch, "- OBS: ")
+    
+    c.setFont("Helvetica-Bold", 10)
     c.drawString(2*inch, 2*inch, "FORMAS DE PAGAMENTO:")
     c.setFont("Helvetica", 10)
     c.drawString(2*inch, 1.8*inch, "PIX")

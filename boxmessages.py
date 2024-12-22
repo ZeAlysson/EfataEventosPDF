@@ -13,7 +13,7 @@ def validate_date(date_str):
         return True
     return False
 
-def validate_fields(client, date, service, service_value):
+def validate_fields(client, date, service_value):
     if not client.get():
         show_warning("Atenção", "O campo 'Cliente' está vazio. Deseja prosseguir mesmo assim?")
         return False
@@ -22,9 +22,6 @@ def validate_fields(client, date, service, service_value):
         return False
     if not validate_date(date.get()):
         show_error("Erro", "O campo 'Data' não está no formato correto. Use o formato DD/MM/AAAA.")
-        return False
-    if not service.get():
-        show_warning("Atenção", "O campo 'Serviço' está vazio. Deseja prosseguir mesmo assim?")
         return False
     if not service_value.get():
         show_warning("Atenção", "O campo 'Valor Total' está vazio. Deseja prosseguir mesmo assim?")
