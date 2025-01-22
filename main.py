@@ -29,7 +29,7 @@ c.drawString(1.11*inch, 6.1*inch, date.get())
 y_position = 5.8 * inch
 for service in services:
     draw_wrapped_text(c, f"• {service}", 0.4*inch, y_position, 80, 12)
-    y_position -= 0.2 * inch
+    y_position -= 0.3 * inch
 
 c.drawString(3.1*inch, 5*inch, service_value.get())
 ######
