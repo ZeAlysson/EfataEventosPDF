@@ -14,7 +14,7 @@ def my_temp(c):
     c.drawString(0, 6.6*inch, "Sede: Rua Álvaro Jose Da Costa, Nº 517, Fazendinha, CEP 81.330-460, Curitiba - PR")
     c.setFont("Helvetica-Bold", 10)
     c.drawString(0, 6.1*inch, "SERVIÇO PARA ")
-    c.drawString(1.8*inch, 5*inch, "VALOR TOTAL: R$")
+    c.drawString(2.2*inch, 4.5*inch, "VALOR TOTAL: R$")
     
     c.setFont("Helvetica-Bold", 10)
     c.drawString(2*inch, 2*inch, "FORMAS DE PAGAMENTO:")
