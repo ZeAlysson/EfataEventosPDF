@@ -33,8 +33,7 @@ home_image = ctk.CTkImage(light_image=Image.open(os.path.join(image_path, "home_
                                                  dark_image=Image.open(os.path.join(image_path, "home_light.png")), size=(20, 20))
 chat_image = ctk.CTkImage(light_image=Image.open(os.path.join(image_path, "chat_dark.png")),
                                                  dark_image=Image.open(os.path.join(image_path, "chat_light.png")), size=(20, 20))
-add_user_image = ctk.CTkImage(light_image=Image.open(os.path.join(image_path, "add_user_dark.png")),
-                                                     dark_image=Image.open(os.path.join(image_path, "add_user_light.png")), size=(20, 20))
+
 
 # create navigation frame
 navigation_frame = ctk.CTkFrame(my_w, corner_radius=0, fg_color="gray95")
